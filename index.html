@@ -292,19 +292,63 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
-                    <iframe src="https://docs.google.com/forms/d/1qpaSvHchSz8Ef32C2HKHph0AcfAblP_DMs5vSIjVsf4/viewform?embedded=true" width="500" height="350" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                      <form action="https://getsimpleform.com/messages?form_api_token=820e04468434177750660a349ec9e65c" method="post">                  <div class="row">
+                                          <div class="col-md-6">
+                                            <div class="form-group">
+                                              <label for="name">
+                                                Name</label>
+                                              <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                            </div>
+                                            <div class="form-group">
+                                              <label for="email">
+                                                Email Address</label>
+                                              <div class="input-group">
+                                                <span class="input-group-addon">
+                                                  <span class="glyphicon glyphicon-envelope"></span>
+                                                </span>
+                                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                                              </div>
+                                            </div>
+                                            <div class="form-group">
+                                              <label for="subject">
+                                                Subject</label>
+                                              <select id="subject" name="subject" class="form-control" required="required">
+                                                <option value="na" selected="">Choose One:</option>
+                                                <option value="service">General</option>
+                                                <option value="suggestions">Recruitment</option>
+                                                <option value="product">Suggestions</option>
+                                              </select>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <div class="form-group">
+                                              <label for="name">
+                                                Message</label>
+                                              <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                                            </div>
+                                          </div>
+                                          <!-- <div class="col-md-12">
+                                            <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                                              Send Message</button>
+                                          </div> -->
+                                        </div>
+                                      </form>
+                    <!-- <iframe src="https://docs.google.com/forms/d/1qpaSvHchSz8Ef32C2HKHph0AcfAblP_DMs5vSIjVsf4/viewform?embedded=true" width="500" height="350" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-default btn-block" data-dismiss="modal">Close</button>
+                    <div class="col-md-12">
+                      <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                        Send Message</button>
+                    </div>
+                    <!-- <button type="button" class="btn btn-default btn-block" data-dismiss="modal">Close</button> -->
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-8 col-md-offset-2">
-              <!-- <div class="boxed-grey">
-            <form id="contact-form"  action="MAILTO:michaelpliang@gmail.com" method="post">
-                  <div class="row">
+            <!-- <div class="col-lg-8 col-md-offset-2">
+              <div class="boxed-grey">
+<form action="https://getsimpleform.com/messages?form_api_token=820e04468434177750660a349ec9e65c" method="post">                  <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
                         <label for="name">
@@ -345,9 +389,9 @@
                     </div>
                   </div>
                 </form>
-        </div> -->
-
         </div>
+
+        </div> -->
 
         </div>
       </section>
@@ -360,9 +404,9 @@
 
               <p><strong>Michael Liang</strong></p>
               <address>
-            46684 Windmill Dr.<br>
-            Fremont, CA 94539<br>
-            <abbr title="Phone">P:</abbr> (262) 716-3720
+                <strong>Location:</strong>Bay Area, CA <br>
+                <strong>Phone:</strong> +(262) 716-3720 <br>
+                <strong>Email:</strong> michaelpliang@gmail.com
               </address>
               <p>Copyright &copy; 2015</p>
             </div>
