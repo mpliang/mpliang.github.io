@@ -174,9 +174,9 @@ hr {
   background: #fff;
 }
 
-.bg-gray {
+/*.bg-gray {
   background: #f8f8f8;
-}
+}*/
 
 .bg-dark {
   background: #575757;
@@ -592,6 +592,7 @@ input.gn-search:focus {
   background: #eee;
   padding: 20px;
   height: 265px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
 .team h5 {
@@ -850,7 +851,7 @@ footer p {
 }
 
 footer a {
-  color: #fefefe;
+  color: inherit;
 }
 
 footer a:hover {
@@ -1019,4 +1020,22 @@ footer a:hover {
   .intro .slogan {
     padding: 170px 0 60px;
   }
+}
+
+/* Custom CSS */
+
+.img-container {
+  margin: auto;
+  width: 222px;
+  height: 147px;
+}
+
+.img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 222px;
+  max-height: 147px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
