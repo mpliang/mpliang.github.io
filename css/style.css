@@ -57,6 +57,9 @@ background-image: url("../img/taiwan-2.jpg");
   height: 600px;
 }
 
+.resume {
+  height: 35em;
+}
 
 body {
   width: 100%;
